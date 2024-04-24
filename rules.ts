@@ -97,6 +97,7 @@ const rules: KarabinerRules[] = [
       // l: open(
       //   "raycast://extensions/stellate/mxstbr-commands/open-mxs-is-shortlink"
       // ),
+      r: app("Postman"),
     },
 
     // w = "Window" via rectangle.app
