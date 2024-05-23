@@ -287,13 +287,13 @@
               {
                 "to": [
                   {
-                    "shell_command": "open -a 'NordPass.app'"
+                    "shell_command": "open -a 'Arc.app'"
                   }
                 ],
-                "description": "Open -a 'NordPass.app'",
+                "description": "Open -a 'Arc.app'",
                 "type": "basic",
                 "from": {
-                  "key_code": "p",
+                  "key_code": "a",
                   "modifiers": {
                     "optional": [
                       "any"
@@ -311,37 +311,13 @@
               {
                 "to": [
                   {
-                    "shell_command": "open -a 'Google Chrome.app'"
+                    "shell_command": "open -a 'Notion Calendar.app'"
                   }
                 ],
-                "description": "Open -a 'Google Chrome.app'",
+                "description": "Open -a 'Notion Calendar.app'",
                 "type": "basic",
                 "from": {
-                  "key_code": "g",
-                  "modifiers": {
-                    "optional": [
-                      "any"
-                    ]
-                  }
-                },
-                "conditions": [
-                  {
-                    "type": "variable_if",
-                    "name": "hyper_sublayer_o",
-                    "value": 1
-                  }
-                ]
-              },
-              {
-                "to": [
-                  {
-                    "shell_command": "open -a 'Visual Studio Code.app'"
-                  }
-                ],
-                "description": "Open -a 'Visual Studio Code.app'",
-                "type": "basic",
-                "from": {
-                  "key_code": "v",
+                  "key_code": "c",
                   "modifiers": {
                     "optional": [
                       "any"
@@ -383,61 +359,13 @@
               {
                 "to": [
                   {
-                    "shell_command": "open -a 'Notion.app'"
+                    "shell_command": "open -a 'Google Chrome.app'"
                   }
                 ],
-                "description": "Open -a 'Notion.app'",
+                "description": "Open -a 'Google Chrome.app'",
                 "type": "basic",
                 "from": {
-                  "key_code": "n",
-                  "modifiers": {
-                    "optional": [
-                      "any"
-                    ]
-                  }
-                },
-                "conditions": [
-                  {
-                    "type": "variable_if",
-                    "name": "hyper_sublayer_o",
-                    "value": 1
-                  }
-                ]
-              },
-              {
-                "to": [
-                  {
-                    "shell_command": "open -a 'Warp.app'"
-                  }
-                ],
-                "description": "Open -a 'Warp.app'",
-                "type": "basic",
-                "from": {
-                  "key_code": "t",
-                  "modifiers": {
-                    "optional": [
-                      "any"
-                    ]
-                  }
-                },
-                "conditions": [
-                  {
-                    "type": "variable_if",
-                    "name": "hyper_sublayer_o",
-                    "value": 1
-                  }
-                ]
-              },
-              {
-                "to": [
-                  {
-                    "shell_command": "open -a 'Finder.app'"
-                  }
-                ],
-                "description": "Open -a 'Finder.app'",
-                "type": "basic",
-                "from": {
-                  "key_code": "f",
+                  "key_code": "g",
                   "modifiers": {
                     "optional": [
                       "any"
@@ -479,13 +407,37 @@
               {
                 "to": [
                   {
-                    "shell_command": "open -a 'Arc.app'"
+                    "shell_command": "open -a 'Notion.app'"
                   }
                 ],
-                "description": "Open -a 'Arc.app'",
+                "description": "Open -a 'Notion.app'",
                 "type": "basic",
                 "from": {
-                  "key_code": "a",
+                  "key_code": "n",
+                  "modifiers": {
+                    "optional": [
+                      "any"
+                    ]
+                  }
+                },
+                "conditions": [
+                  {
+                    "type": "variable_if",
+                    "name": "hyper_sublayer_o",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "to": [
+                  {
+                    "shell_command": "open -a 'NordPass.app'"
+                  }
+                ],
+                "description": "Open -a 'NordPass.app'",
+                "type": "basic",
+                "from": {
+                  "key_code": "p",
                   "modifiers": {
                     "optional": [
                       "any"
@@ -510,6 +462,78 @@
                 "type": "basic",
                 "from": {
                   "key_code": "r",
+                  "modifiers": {
+                    "optional": [
+                      "any"
+                    ]
+                  }
+                },
+                "conditions": [
+                  {
+                    "type": "variable_if",
+                    "name": "hyper_sublayer_o",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "to": [
+                  {
+                    "shell_command": "open -a 'Slack.app'"
+                  }
+                ],
+                "description": "Open -a 'Slack.app'",
+                "type": "basic",
+                "from": {
+                  "key_code": "s",
+                  "modifiers": {
+                    "optional": [
+                      "any"
+                    ]
+                  }
+                },
+                "conditions": [
+                  {
+                    "type": "variable_if",
+                    "name": "hyper_sublayer_o",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "to": [
+                  {
+                    "shell_command": "open -a 'Warp.app'"
+                  }
+                ],
+                "description": "Open -a 'Warp.app'",
+                "type": "basic",
+                "from": {
+                  "key_code": "t",
+                  "modifiers": {
+                    "optional": [
+                      "any"
+                    ]
+                  }
+                },
+                "conditions": [
+                  {
+                    "type": "variable_if",
+                    "name": "hyper_sublayer_o",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "to": [
+                  {
+                    "shell_command": "open -a 'Visual Studio Code.app'"
+                  }
+                ],
+                "description": "Open -a 'Visual Studio Code.app'",
+                "type": "basic",
+                "from": {
+                  "key_code": "v",
                   "modifiers": {
                     "optional": [
                       "any"

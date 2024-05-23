@@ -70,15 +70,23 @@ const rules: KarabinerRules[] = [
     },
     // o = "Open" applications
     o: {
-      p: app("NordPass"),
+      a: app("Arc"),
+      // "P"assword manager
+      c: app("Notion Calendar"),
+      // "E"mail
+      e: app("Spark Desktop"),
       g: app("Google Chrome"),
-      // c: app("Notion Calendar"),
+      // "M"usic
+      m: app("Spotify"),
+      n: app("Notion"),
+      p: app("NordPass"),
+      // "R"equests
+      r: app("Postman"),
+      s: app("Slack"),
+      // "T"erminal
+      t: app("Warp"),
       v: app("Visual Studio Code"),
       // d: app("Discord"),
-      // s: app("Slack"),
-      e: app("Spark Desktop"),
-      n: app("Notion"),
-      t: app("Warp"),
       // Open todo list managed via *H*yperosnic
       // h: open(
       //   "notion://www.notion.so/stellatehq/7b33b924746647499d906c55f89d5026"
@@ -86,18 +94,15 @@ const rules: KarabinerRules[] = [
       // z: app("zoom.us"),
       // "M"essages
       // m: app("Texts"),
-      f: app("Finder"),
+      // f: app("Finder"),
       // r: app("Texts"),
       // "i"Message
       // i: app("Texts"),
-      m: app("Spotify"),
-      a: app("Arc"),
       // "W"hatsApp has been replaced by Texts
       // w: open("Texts"),
       // l: open(
       //   "raycast://extensions/stellate/mxstbr-commands/open-mxs-is-shortlink"
       // ),
-      r: app("Postman"),
     },
 
     // w = "Window" via rectangle.app
