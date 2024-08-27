@@ -79,7 +79,8 @@ const rules: KarabinerRules[] = [
       // "M"usic
       m: app("Spotify"),
       n: app("Notion"),
-      p: app("NordPass"),
+      // p: app("NordPass"),
+      p: app("1Password"),
       // "R"equests
       r: app("Postman"),
       s: app("Slack"),
